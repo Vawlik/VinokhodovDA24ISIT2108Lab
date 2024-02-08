@@ -1,4 +1,42 @@
 package tech.reliab.course.vinokhodovda.bank.service.impl;
 
-public class PaymentAccountServiceImpl {
+import tech.reliab.course.vinokhodovda.bank.entity.Bank;
+import tech.reliab.course.vinokhodovda.bank.entity.PaymentAccount;
+import tech.reliab.course.vinokhodovda.bank.entity.User;
+import tech.reliab.course.vinokhodovda.bank.service.PaymentAccountService;
+
+public class PaymentAccountServiceImpl implements PaymentAccountService {
+    /**
+     * Creates a payment account object with the specified parameters.
+     *
+     * @param id the unique identifier of the payment account
+     * @param user the user associated with the payment account
+     * @param bank the bank associated with the payment account
+     * @param balance the balance of the payment account
+     * @return the created payment account object
+     */
+
+    @Override
+    public PaymentAccount createPaymentAccount(Long id, User user, Bank bank, Double balance) {
+        PaymentAccount paymentAccount = new PaymentAccount();
+        paymentAccount.setId(id);
+        paymentAccount.setUser(user);
+        paymentAccount.setBankName(bank.getName());
+        paymentAccount.setBalance(balance);
+        return paymentAccount;
+    }
+
+    @Override
+    public PaymentAccount readPaymentAccount(Long id) {
+        return null;
+    }
+
+    @Override
+    public void updatePaymentAccount(Long id) {
+    }
+
+    @Override
+    public void deletePaymentAccount(Long id) {
+    }
+
 }
