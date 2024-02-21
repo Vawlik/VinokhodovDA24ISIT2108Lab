@@ -1,6 +1,7 @@
 package tech.reliab.course.vinokhodovda.bank.entity;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -93,7 +94,7 @@ public class User {
         return "User{" +
                "id=" + id +
                ", fullName='" + fullName + '\'' +
-               ", birthDate=" + birthDate +
+               ", birthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
                ", workplace='" + workplace + '\'' +
                ", monthlyIncome=" + monthlyIncome +
                ", usedBanks=" + usedBanks +

@@ -12,17 +12,16 @@ public class PaymentAccountServiceImpl implements PaymentAccountService {
      * @param id the unique identifier of the payment account
      * @param user the user associated with the payment account
      * @param bank the bank associated with the payment account
-     * @param balance the balance of the payment account
      * @return the created payment account object
      */
 
     @Override
-    public PaymentAccount createPaymentAccount(Long id, User user, Bank bank, Double balance) {
+    public PaymentAccount createPaymentAccount(Long id, User user, Bank bank) {
         PaymentAccount paymentAccount = new PaymentAccount();
         paymentAccount.setId(id);
         paymentAccount.setUser(user);
         paymentAccount.setBankName(bank.getName());
-        paymentAccount.setBalance(balance);
+        paymentAccount.setBalance(0.0);
         return paymentAccount;
     }
 

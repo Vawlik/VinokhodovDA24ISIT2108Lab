@@ -16,12 +16,13 @@ public class BankServiceImpl implements BankService {
 
     @Override
     public Bank createBank(Long id, String name) {
+        Random random=new Random();
         Bank bank = new Bank();
         bank.setId(id);
         bank.setName(name);
-        bank.setBankRating(new Random().nextInt(101));
-        bank.setTotalMoneyInBank(new Random().nextDouble(1000000));
-        bank.setInterestRate(20 - bank.getBankRating() * 0.2);
+        bank.setBankRating(random.nextInt(101));
+        bank.setTotalMoneyInBank(Math.round(random.nextDouble(1000000)*100.0)/100.0);
+        bank.setInterestRate(Math.round((20 - bank.getBankRating() /5.0)*100.0)/100.0);
         return bank;
     }
 

@@ -109,9 +109,9 @@ public class BankAtm {
                ", name='" + name + '\'' +
                ", addressAtm='" + addressAtm + '\'' +
                ", statusAtm=" + statusAtm +
-               ", bank=" + bank +
-               ", bankOffice=" + bankOffice +
-               ", serviceEmployee=" + serviceEmployee +
+               ", bankId=" + bank.getId() +
+               ", bankOfficeId=" + bankOffice.getId() +
+               ", serviceEmployeeId=" + serviceEmployee.getId() +
                ", worksForWithdrawal=" + worksForWithdrawal +
                ", acceptsDeposits=" + acceptsDeposits +
                ", moneyInAtm=" + moneyInAtm +

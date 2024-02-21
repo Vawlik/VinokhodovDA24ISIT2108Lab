@@ -14,10 +14,9 @@ public interface PaymentAccountService {
      * @param id      the id
      * @param user    the user
      * @param bank    the bank
-     * @param balance the balance
      * @return the payment account
      */
-    PaymentAccount createPaymentAccount(Long id, User user, Bank bank, Double balance);
+    PaymentAccount createPaymentAccount(Long id, User user, Bank bank);
 
     /**
      * Read payment account.

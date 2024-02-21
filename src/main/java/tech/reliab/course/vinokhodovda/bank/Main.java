@@ -58,8 +58,7 @@ public class Main {
         PaymentAccount paymentAccount = paymentAccountService.createPaymentAccount(
                 1L,
                 user,
-                bank,
-                1400.0
+                bank
         );
         BankAtm bankAtm = bankAtmService.createBankAtm(
                 1L,
@@ -86,6 +85,7 @@ public class Main {
                 paymentAccount,
                 bank
         );
+        System.out.println();
         System.out.println(bank);
         System.out.println();
         System.out.println(bankAtm);

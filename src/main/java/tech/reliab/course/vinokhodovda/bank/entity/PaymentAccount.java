@@ -42,7 +42,7 @@ public class PaymentAccount {
     public String toString() {
         return "PaymentAccount{" +
                "id=" + id +
-               ", user=" + user +
+               ", userId=" + user.getId() +
                ", bankName='" + bankName + '\'' +
                ", balance=" + balance +
                '}';

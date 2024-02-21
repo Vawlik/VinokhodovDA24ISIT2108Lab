@@ -1,6 +1,7 @@
 package tech.reliab.course.vinokhodovda.bank.entity;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Employee {
     private long id;
@@ -90,11 +91,11 @@ public class Employee {
         return "Employee{" +
                "id=" + id +
                ", fullName='" + fullName + '\'' +
-               ", birthDate=" + birthDate +
+               ", birthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
                ", position='" + position + '\'' +
-               ", bank=" + bank +
+               ", bankId=" + bank.getId() +
                ", worksInOffice=" + worksInOffice +
-               ", office=" + office +
+               ", officeId=" + office.getId() +
                ", canProvideLoans=" + canProvideLoans +
                ", salary=" + salary +
                '}';

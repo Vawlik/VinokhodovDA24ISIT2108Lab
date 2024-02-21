@@ -1,6 +1,7 @@
 package tech.reliab.course.vinokhodovda.bank.entity;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class CreditAccount {
     private long id;
@@ -107,16 +108,16 @@ public class CreditAccount {
     public String toString() {
         return "CreditAccount{" +
                "id=" + id +
-               ", userAccount=" + userAccount +
+               ", userAccountId=" + userAccount.getId() +
                ", bankName='" + bankName + '\'' +
-               ", startDate=" + startDate +
-               ", endDate=" + endDate +
+               ", startDate=" + startDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
+               ", endDate=" + endDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
                ", months=" + months +
                ", loanAmount=" + loanAmount +
                ", monthlyPayment=" + monthlyPayment +
                ", interestRate=" + interestRate +
-               ", issuingEmployee=" + issuingEmployee +
-               ", paymentAccount=" + paymentAccount +
+               ", issuingEmployeeId=" + issuingEmployee.getId() +
+               ", paymentAccountId=" + paymentAccount.getId() +
                '}';
     }
 }

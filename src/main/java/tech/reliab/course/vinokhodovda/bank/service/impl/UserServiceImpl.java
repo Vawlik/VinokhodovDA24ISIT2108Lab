@@ -13,8 +13,8 @@ public class UserServiceImpl implements UserService {
     /**
      * Creates a user object with the specified parameters.
      *
-     * @param id the unique identifier of the user
-     * @param fullName the full name of the user
+     * @param id        the unique identifier of the user
+     * @param fullName  the full name of the user
      * @param birthDate the birth date of the user
      * @param workplace the workplace of the user
      * @param usedBanks the list of banks used by the user
@@ -23,16 +23,17 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User createUser(Long id, String fullName, LocalDate birthDate, String workplace, List<Bank> usedBanks) {
-        User user=new User();
+        Random random = new Random();
+        User user = new User();
         user.setId(id);
         user.setFullName(fullName);
         user.setBirthDate(birthDate);
         user.setWorkplace(workplace);
-        user.setMonthlyIncome(new Random().nextDouble(10000));
+        user.setMonthlyIncome(Math.round(random.nextDouble(10000) * 100.0) / 100.0);
         user.setUsedBanks(usedBanks);
         user.setCreditAccounts(new ArrayList<>());
         user.setPaymentAccounts(new ArrayList<>());
-        user.setCreditRating(switch ((int) (user.getMonthlyIncome()/1000)){
+        user.setCreditRating(switch ((int) (user.getMonthlyIncome() / 1000)) {
             case 2 -> 200;
             case 3 -> 300;
             case 4 -> 400;
