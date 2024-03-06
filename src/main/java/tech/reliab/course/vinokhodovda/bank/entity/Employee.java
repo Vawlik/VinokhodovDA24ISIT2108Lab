@@ -88,16 +88,15 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-               "id=" + id +
-               ", fullName='" + fullName + '\'' +
-               ", birthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
-               ", position='" + position + '\'' +
-               ", bankId=" + bank.getId() +
-               ", worksInOffice=" + worksInOffice +
-               ", officeId=" + office.getId() +
-               ", canProvideLoans=" + canProvideLoans +
-               ", salary=" + salary +
-               '}';
+        return "Employee" +
+               " \nid=" + id +
+               ", \nfullName='" + fullName + '\'' +
+               ", \nbirthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
+               ", \nposition='" + position + '\'' +
+               ", \nbankName=" + bank.getName() +
+               ", \nworksInOffice=" + worksInOffice +
+               ",\n officeId=" + office.getId() +
+               ", \ncanProvideLoans=" + canProvideLoans +
+               ", \nsalary=" + salary;
     }
 }

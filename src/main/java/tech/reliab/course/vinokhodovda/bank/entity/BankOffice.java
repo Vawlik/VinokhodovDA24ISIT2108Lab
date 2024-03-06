@@ -103,18 +103,17 @@ public class BankOffice {
 
     @Override
     public String toString() {
-        return "BankOffice{" +
-               "id=" + id +
-               ", nameOffice='" + nameOffice + '\'' +
-               ", addressOffice='" + addressOffice + '\'' +
-               ", statusOffice=" + statusOffice +
-               ", canPlaceAtm=" + canPlaceAtm +
-               ", numberOfATMs=" + numberOfATMs +
-               ", canProvideCredit=" + canProvideCredit +
-               ", worksForWithdrawal=" + worksForWithdrawal +
-               ", acceptsDeposits=" + acceptsDeposits +
-               ", moneyInOffice=" + moneyInOffice +
-               ", rentCost=" + rentCost +
-               '}';
+        return "BankOffice" +
+               "\nid=" + id +
+               ", \nnameOffice='" + nameOffice + '\'' +
+               ", \naddressOffice='" + addressOffice + '\'' +
+               ", \nstatusOffice=" + statusOffice +
+               ", \ncanPlaceAtm=" + canPlaceAtm +
+               ", \nnumberOfATMs=" + numberOfATMs +
+               ", \ncanProvideCredit=" + canProvideCredit +
+               ", \nworksForWithdrawal=" + worksForWithdrawal +
+               ", \nacceptsDeposits=" + acceptsDeposits +
+               ", \nmoneyInOffice=" + moneyInOffice +
+               ", \nrentCost=" + rentCost;
     }
 }

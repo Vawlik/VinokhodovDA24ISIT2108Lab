@@ -40,11 +40,10 @@ public class PaymentAccount {
 
     @Override
     public String toString() {
-        return "PaymentAccount{" +
-               "id=" + id +
-               ", userId=" + user.getId() +
-               ", bankName='" + bankName + '\'' +
-               ", balance=" + balance +
-               '}';
+        return "PaymentAccount" +
+               "\nid=" + id +
+               ", \nuserId=" + user.getId() +
+               ", \nbankName='" + bankName + '\'' +
+               ", \nbalance=" + balance;
     }
 }

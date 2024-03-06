@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65993f4c-1b99-49d7-9247-cd20e861472d" name="Changes" comment="Сделана 1 лабораторная работа">
+    <list default="true" id="65993f4c-1b99-49d7-9247-cd20e861472d" name="Changes" comment="Изменены toString() в сущностях и округление до сотых">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankAtm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankAtm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankOffice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/CreditAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/CreditAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/PaymentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/PaymentAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/PaymentAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/PaymentAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/BankServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/BankServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/PaymentAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/PaymentAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,11 @@
       <workItem from="1707378144553" duration="22908000" />
       <workItem from="1707898000097" duration="79000" />
       <workItem from="1708509084719" duration="613000" />
-      <workItem from="1708509927850" duration="1836000" />
+      <workItem from="1708509927850" duration="1961000" />
+      <workItem from="1708585941534" duration="45000" />
+      <workItem from="1709111966828" duration="972000" />
+      <workItem from="1709123755251" duration="16000" />
+      <workItem from="1709716143203" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="Создан репозиторий">
       <option name="closed" value="true" />
@@ -126,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707405340400</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Изменены toString() в сущностях и округление до сотых">
+      <option name="closed" value="true" />
+      <created>1708511864590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708511864590</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создан репозиторий" />
     <MESSAGE value="Сделана 1 лабораторная работа" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана 1 лабораторная работа" />
+    <MESSAGE value="Изменены toString() в сущностях и округление до сотых" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменены toString() в сущностях и округление до сотых" />
   </component>
 </project>

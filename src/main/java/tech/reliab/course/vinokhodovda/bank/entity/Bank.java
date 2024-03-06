@@ -87,16 +87,15 @@ public class Bank {
 
     @Override
     public String toString() {
-        return "Bank{" +
-               "id=" + id +
-               ", name='" + name + '\'' +
-               ", numberOfOffices=" + numberOfOffices +
-               ", numberOfATMs=" + numberOfATMs +
-               ", numberOfEmployees=" + numberOfEmployees +
-               ", numberOfClients=" + numberOfClients +
-               ", bankRating=" + bankRating +
-               ", totalMoneyInBank=" + totalMoneyInBank +
-               ", interestRate=" + interestRate +
-               '}';
+        return "Bank" +
+               "\nid=" + id +
+               ", \nname='" + name + '\'' +
+               ", \nnumberOfOffices=" + numberOfOffices +
+               ", \nnumberOfATMs=" + numberOfATMs +
+               ", \nnumberOfEmployees=" + numberOfEmployees +
+               ", \nnumberOfClients=" + numberOfClients +
+               ", \nbankRating=" + bankRating +
+               ", \ntotalMoneyInBank=" + totalMoneyInBank +
+               ", \ninterestRate=" + interestRate;
     }
 }

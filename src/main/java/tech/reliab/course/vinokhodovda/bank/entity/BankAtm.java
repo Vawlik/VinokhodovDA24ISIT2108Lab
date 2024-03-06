@@ -104,18 +104,17 @@ public class BankAtm {
 
     @Override
     public String toString() {
-        return "BankAtm{" +
-               "id=" + id +
-               ", name='" + name + '\'' +
-               ", addressAtm='" + addressAtm + '\'' +
-               ", statusAtm=" + statusAtm +
-               ", bankId=" + bank.getId() +
-               ", bankOfficeId=" + bankOffice.getId() +
-               ", serviceEmployeeId=" + serviceEmployee.getId() +
-               ", worksForWithdrawal=" + worksForWithdrawal +
-               ", acceptsDeposits=" + acceptsDeposits +
-               ", moneyInAtm=" + moneyInAtm +
-               ", maintenanceCost=" + maintenanceCost +
-               '}';
+        return "BankAtm" +
+               " \nid=" + id +
+               ", \nname='" + name + '\'' +
+               ", \naddressAtm='" + addressAtm + '\'' +
+               ", \nstatusAtm=" + statusAtm +
+               ", \nbankId=" + bank.getId() +
+               ", \nbankOfficeId=" + bankOffice.getId() +
+               ", \nserviceEmployeeId=" + serviceEmployee.getId() +
+               ", \nworksForWithdrawal=" + worksForWithdrawal +
+               ", \nacceptsDeposits=" + acceptsDeposits +
+               ", \nmoneyInAtm=" + moneyInAtm +
+               ", \nmaintenanceCost=" + maintenanceCost;
     }
 }

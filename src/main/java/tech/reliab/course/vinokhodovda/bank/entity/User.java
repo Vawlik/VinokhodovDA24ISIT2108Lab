@@ -91,16 +91,15 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-               "id=" + id +
-               ", fullName='" + fullName + '\'' +
-               ", birthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
-               ", workplace='" + workplace + '\'' +
-               ", monthlyIncome=" + monthlyIncome +
-               ", usedBanks=" + usedBanks +
-               ", creditAccounts=" + creditAccounts +
-               ", paymentAccounts=" + paymentAccounts +
-               ", creditRating=" + creditRating +
-               '}';
+        return "User" +
+               "\nid=" + id +
+               ", \nfullName='" + fullName + '\'' +
+               ", \nbirthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
+               ", \nworkplace='" + workplace + '\'' +
+               ", \nmonthlyIncome=" + monthlyIncome +
+               ", \nusedBanks=" + usedBanks +
+               ", \ncreditAccounts=" + creditAccounts +
+               ", \npaymentAccounts=" + paymentAccounts +
+               ", \ncreditRating=" + creditRating;
     }
 }
