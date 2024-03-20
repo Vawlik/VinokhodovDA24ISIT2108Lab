@@ -3,26 +3,31 @@ package tech.reliab.course.vinokhodovda.bank.service.impl;
 import tech.reliab.course.vinokhodovda.bank.entity.Bank;
 import tech.reliab.course.vinokhodovda.bank.service.BankService;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class BankServiceImpl implements BankService {
     /**
      * Creates a bank object with the specified parameters.
      *
-     * @param id the unique identifier of the bank
+     * @param id   the unique identifier of the bank
      * @param name the name of the bank
      * @return the created bank object
      */
 
     @Override
     public Bank createBank(Long id, String name) {
-        Random random=new Random();
+        Random random = new Random();
         Bank bank = new Bank();
         bank.setId(id);
         bank.setName(name);
+        bank.setBankOfficeList(new ArrayList<>());
+        bank.setBankAtmList(new ArrayList<>());
+        bank.setEmployeeList(new ArrayList<>());
+        bank.setUserList(new ArrayList<>());
         bank.setBankRating(random.nextInt(101));
-        bank.setTotalMoneyInBank(Math.round(random.nextDouble(1000000)*100.0)/100.0);
-        bank.setInterestRate(Math.round((20 - bank.getBankRating() /5.0)*100.0)/100.0);
+        bank.setTotalMoneyInBank(Math.round(random.nextDouble(1000000) * 100.0) / 100.0);
+        bank.setInterestRate(Math.round((20 - bank.getBankRating() / 5.0) * 100.0) / 100.0);
         return bank;
     }
 

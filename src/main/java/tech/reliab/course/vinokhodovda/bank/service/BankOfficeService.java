@@ -15,7 +15,6 @@ public interface BankOfficeService {
      * @param addressOffice      the address office
      * @param statusOffice       the status office
      * @param canPlaceAtm        the can place atm
-     * @param numberOfATMs       the number of at ms
      * @param canProvideCredit   the can provide credit
      * @param worksForWithdrawal the works for withdrawal
      * @param acceptsDeposits    the accepts deposits
@@ -24,7 +23,7 @@ public interface BankOfficeService {
      * @param bank               the bank
      * @return the bank office
      */
-    BankOffice createBankOffice(Long id, String nameOffice, String addressOffice, boolean statusOffice, Boolean canPlaceAtm, Integer numberOfATMs, Boolean canProvideCredit, Boolean worksForWithdrawal, Boolean acceptsDeposits, Double moneyInOffice, Double rentCost, Bank bank);
+    BankOffice createBankOffice(Long id, String nameOffice, String addressOffice, boolean statusOffice, Boolean canPlaceAtm, Boolean canProvideCredit, Boolean worksForWithdrawal, Boolean acceptsDeposits, Double moneyInOffice, Double rentCost, Bank bank);
 
     /**
      * Read bank office.

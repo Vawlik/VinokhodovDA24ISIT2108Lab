@@ -1,14 +1,14 @@
 package tech.reliab.course.vinokhodovda.bank.entity;
 
-import java.util.Random;
+import java.util.List;
 
 public class Bank {
     private long id;
     private String name;
-    private int numberOfOffices;
-    private int numberOfATMs;
-    private int numberOfEmployees;
-    private int numberOfClients;
+    private List<BankOffice> bankOfficeList;
+    private List<BankAtm> bankAtmList;
+    private List<Employee> employeeList;
+    private List<User> userList;
     private int bankRating;
     private double totalMoneyInBank;
     private double interestRate;
@@ -29,36 +29,36 @@ public class Bank {
         this.name = name;
     }
 
-    public int getNumberOfOffices() {
-        return numberOfOffices;
+    public List<BankOffice> getBankOfficeList() {
+        return bankOfficeList;
     }
 
-    public void setNumberOfOffices(int numberOfOffices) {
-        this.numberOfOffices = numberOfOffices;
+    public void setBankOfficeList(List<BankOffice> bankOfficeList) {
+        this.bankOfficeList = bankOfficeList;
     }
 
-    public int getNumberOfATMs() {
-        return numberOfATMs;
+    public List<BankAtm> getBankAtmList() {
+        return bankAtmList;
     }
 
-    public void setNumberOfATMs(int numberOfATMs) {
-        this.numberOfATMs = numberOfATMs;
+    public void setBankAtmList(List<BankAtm> bankAtmList) {
+        this.bankAtmList = bankAtmList;
     }
 
-    public int getNumberOfEmployees() {
-        return numberOfEmployees;
+    public List<Employee> getEmployeeList() {
+        return employeeList;
     }
 
-    public void setNumberOfEmployees(int numberOfEmployees) {
-        this.numberOfEmployees = numberOfEmployees;
+    public void setEmployeeList(List<Employee> employeeList) {
+        this.employeeList = employeeList;
     }
 
-    public int getNumberOfClients() {
-        return numberOfClients;
+    public List<User> getUserList() {
+        return userList;
     }
 
-    public void setNumberOfClients(int numberOfClients) {
-        this.numberOfClients = numberOfClients;
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
     }
 
     public int getBankRating() {
@@ -87,15 +87,11 @@ public class Bank {
 
     @Override
     public String toString() {
-        return "Bank" +
-               "\nid=" + id +
-               ", \nname='" + name + '\'' +
-               ", \nnumberOfOffices=" + numberOfOffices +
-               ", \nnumberOfATMs=" + numberOfATMs +
-               ", \nnumberOfEmployees=" + numberOfEmployees +
-               ", \nnumberOfClients=" + numberOfClients +
-               ", \nbankRating=" + bankRating +
-               ", \ntotalMoneyInBank=" + totalMoneyInBank +
-               ", \ninterestRate=" + interestRate;
+        return
+                "\nid=" + id +
+                ", \nname='" + name + '\'' +
+                ", \nbankRating=" + bankRating +
+                ", \ntotalMoneyInBank=" + totalMoneyInBank +
+                ", \ninterestRate=" + interestRate;
     }
 }

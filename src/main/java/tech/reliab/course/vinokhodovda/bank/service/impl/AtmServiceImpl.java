@@ -10,16 +10,16 @@ public class AtmServiceImpl implements AtmService {
     /**
      * Creates a bank ATM object.
      *
-     * @param id the unique identifier of the ATM
-     * @param name the name of the ATM
-     * @param statusAtm the current status of the ATM
-     * @param bank the bank to which the ATM belongs
-     * @param bankOffice the bank office where the ATM is located
-     * @param serviceEmployee the employee servicing the ATM
+     * @param id                 the unique identifier of the ATM
+     * @param name               the name of the ATM
+     * @param statusAtm          the current status of the ATM
+     * @param bank               the bank to which the ATM belongs
+     * @param bankOffice         the bank office where the ATM is located
+     * @param serviceEmployee    the employee servicing the ATM
      * @param worksForWithdrawal flag indicating if cash withdrawal is available
-     * @param moneyInAtm the amount of cash in the ATM
-     * @param acceptsDeposits flag indicating if deposits are accepted
-     * @param maintenanceCost the maintenance cost of the ATM
+     * @param moneyInAtm         the amount of cash in the ATM
+     * @param acceptsDeposits    flag indicating if deposits are accepted
+     * @param maintenanceCost    the maintenance cost of the ATM
      * @return the created bank ATM object
      * @throws IllegalArgumentException if the amount of money in the bank is less than in the ATM
      */

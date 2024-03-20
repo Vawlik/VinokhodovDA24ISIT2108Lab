@@ -2,9 +2,7 @@ package tech.reliab.course.vinokhodovda.bank.entity;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class User {
     private long id;
@@ -91,15 +89,15 @@ public class User {
 
     @Override
     public String toString() {
-        return "User" +
-               "\nid=" + id +
-               ", \nfullName='" + fullName + '\'' +
-               ", \nbirthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
-               ", \nworkplace='" + workplace + '\'' +
-               ", \nmonthlyIncome=" + monthlyIncome +
-               ", \nusedBanks=" + usedBanks +
-               ", \ncreditAccounts=" + creditAccounts +
-               ", \npaymentAccounts=" + paymentAccounts +
-               ", \ncreditRating=" + creditRating;
+        return
+                "\nid=" + id +
+                ", \nfullName='" + fullName + '\'' +
+                ", \nbirthDate=" + birthDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
+                ", \nworkplace='" + workplace + '\'' +
+                ", \nmonthlyIncome=" + monthlyIncome +
+                ", \nusedBanks=" + usedBanks +
+                ", \ncreditAccounts=" + creditAccounts +
+                ", \npaymentAccounts=" + paymentAccounts +
+                ", \ncreditRating=" + creditRating;
     }
 }

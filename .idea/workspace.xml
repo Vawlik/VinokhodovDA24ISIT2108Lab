@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65993f4c-1b99-49d7-9247-cd20e861472d" name="Changes" comment="Изменены toString() в сущностях и округление до сотых">
+    <list default="true" id="65993f4c-1b99-49d7-9247-cd20e861472d" name="Changes" comment="Изменены toString() в сущностях">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/utils/BankGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankAtm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankAtm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/BankOffice.java" afterDir="false" />
@@ -13,6 +15,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/PaymentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/PaymentAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/BankOfficeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/BankOfficeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/PaymentAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/PaymentAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/AtmServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/AtmServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/BankOfficeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/BankOfficeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/BankServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/BankServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/CreditAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/CreditAccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/PaymentAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tech/reliab/course/vinokhodovda/bank/service/impl/PaymentAccountServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,7 +64,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Lab2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/JavaIntelProgs/VinokhodovDA24ISIT2108Lab",
     "node.js.detected.package.eslint": "true",
@@ -57,7 +72,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -109,7 +124,13 @@
       <workItem from="1708585941534" duration="45000" />
       <workItem from="1709111966828" duration="972000" />
       <workItem from="1709123755251" duration="16000" />
-      <workItem from="1709716143203" duration="1234000" />
+      <workItem from="1709716143203" duration="1302000" />
+      <workItem from="1709717918061" duration="78000" />
+      <workItem from="1709718939945" duration="68000" />
+      <workItem from="1709719674080" duration="25000" />
+      <workItem from="1709719705097" duration="1610000" />
+      <workItem from="1710920235808" duration="589000" />
+      <workItem from="1710921314227" duration="11054000" />
     </task>
     <task id="LOCAL-00001" summary="Создан репозиторий">
       <option name="closed" value="true" />
@@ -135,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708511864590</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Изменены toString() в сущностях">
+      <option name="closed" value="true" />
+      <created>1709717435985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709717435985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +174,7 @@
     <MESSAGE value="Создан репозиторий" />
     <MESSAGE value="Сделана 1 лабораторная работа" />
     <MESSAGE value="Изменены toString() в сущностях и округление до сотых" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменены toString() в сущностях и округление до сотых" />
+    <MESSAGE value="Изменены toString() в сущностях" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменены toString() в сущностях" />
   </component>
 </project>

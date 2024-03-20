@@ -2,7 +2,6 @@ package tech.reliab.course.vinokhodovda.bank.service.impl;
 
 import tech.reliab.course.vinokhodovda.bank.entity.Bank;
 import tech.reliab.course.vinokhodovda.bank.entity.BankOffice;
-import tech.reliab.course.vinokhodovda.bank.entity.CreditAccount;
 import tech.reliab.course.vinokhodovda.bank.entity.Employee;
 import tech.reliab.course.vinokhodovda.bank.service.EmployeeService;
 
@@ -12,15 +11,15 @@ public class EmployeeServiceImpl implements EmployeeService {
     /**
      * Creates an employee object with the specified parameters.
      *
-     * @param id the unique identifier of the employee
-     * @param fullName the full name of the employee
-     * @param birthDate the birth date of the employee
-     * @param position the position of the employee
-     * @param bank the bank to which the employee belongs
-     * @param worksInOffice flag indicating if the employee works in an office
-     * @param office the office where the employee works
+     * @param id              the unique identifier of the employee
+     * @param fullName        the full name of the employee
+     * @param birthDate       the birth date of the employee
+     * @param position        the position of the employee
+     * @param bank            the bank to which the employee belongs
+     * @param worksInOffice   flag indicating if the employee works in an office
+     * @param office          the office where the employee works
      * @param canProvideLoans flag indicating if the employee can provide loans
-     * @param salary the salary of the employee
+     * @param salary          the salary of the employee
      * @return the created employee object
      */
 

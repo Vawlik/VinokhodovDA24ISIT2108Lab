@@ -9,7 +9,7 @@ public class PaymentAccountServiceImpl implements PaymentAccountService {
     /**
      * Creates a payment account object with the specified parameters.
      *
-     * @param id the unique identifier of the payment account
+     * @param id   the unique identifier of the payment account
      * @param user the user associated with the payment account
      * @param bank the bank associated with the payment account
      * @return the created payment account object

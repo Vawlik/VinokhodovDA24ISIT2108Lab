@@ -6,7 +6,6 @@ public class BankOffice {
     private String addressOffice;
     private boolean statusOffice;
     private boolean canPlaceAtm;
-    private int numberOfATMs;
     private boolean canProvideCredit;
     private boolean worksForWithdrawal;
     private boolean acceptsDeposits;
@@ -53,14 +52,6 @@ public class BankOffice {
         this.canPlaceAtm = canPlaceAtm;
     }
 
-    public int getNumberOfATMs() {
-        return numberOfATMs;
-    }
-
-    public void setNumberOfATMs(int numberOfATMs) {
-        this.numberOfATMs = numberOfATMs;
-    }
-
     public boolean isCanProvideCredit() {
         return canProvideCredit;
     }
@@ -103,17 +94,16 @@ public class BankOffice {
 
     @Override
     public String toString() {
-        return "BankOffice" +
-               "\nid=" + id +
-               ", \nnameOffice='" + nameOffice + '\'' +
-               ", \naddressOffice='" + addressOffice + '\'' +
-               ", \nstatusOffice=" + statusOffice +
-               ", \ncanPlaceAtm=" + canPlaceAtm +
-               ", \nnumberOfATMs=" + numberOfATMs +
-               ", \ncanProvideCredit=" + canProvideCredit +
-               ", \nworksForWithdrawal=" + worksForWithdrawal +
-               ", \nacceptsDeposits=" + acceptsDeposits +
-               ", \nmoneyInOffice=" + moneyInOffice +
-               ", \nrentCost=" + rentCost;
+        return
+                "\nid=" + id +
+                ", \nnameOffice='" + nameOffice + '\'' +
+                ", \naddressOffice='" + addressOffice + '\'' +
+                ", \nstatusOffice=" + statusOffice +
+                ", \ncanPlaceAtm=" + canPlaceAtm +
+                ", \ncanProvideCredit=" + canProvideCredit +
+                ", \nworksForWithdrawal=" + worksForWithdrawal +
+                ", \nacceptsDeposits=" + acceptsDeposits +
+                ", \nmoneyInOffice=" + moneyInOffice +
+                ", \nrentCost=" + rentCost;
     }
 }

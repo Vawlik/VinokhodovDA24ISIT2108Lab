@@ -9,17 +9,17 @@ public class CreditAccountServiceImpl implements CreditAccountService {
     /**
      * Creates a credit account object with the specified parameters.
      *
-     * @param id the unique identifier of the credit account
-     * @param userAccount the user associated with the credit account
-     * @param startDate the start date of the credit account
-     * @param endDate the end date of the credit account
-     * @param months the duration of the credit account in months
-     * @param loanAmount the amount of the loan associated with the credit account
-     * @param monthlyPayment the monthly payment for the credit account
-     * @param interestRate the interest rate for the credit account
+     * @param id              the unique identifier of the credit account
+     * @param userAccount     the user associated with the credit account
+     * @param startDate       the start date of the credit account
+     * @param endDate         the end date of the credit account
+     * @param months          the duration of the credit account in months
+     * @param loanAmount      the amount of the loan associated with the credit account
+     * @param monthlyPayment  the monthly payment for the credit account
+     * @param interestRate    the interest rate for the credit account
      * @param issuingEmployee the employee who issued the credit account
-     * @param paymentAccount the payment account associated with the credit account
-     * @param bank the bank associated with the credit account
+     * @param paymentAccount  the payment account associated with the credit account
+     * @param bank            the bank associated with the credit account
      * @return the created credit account object
      */
 

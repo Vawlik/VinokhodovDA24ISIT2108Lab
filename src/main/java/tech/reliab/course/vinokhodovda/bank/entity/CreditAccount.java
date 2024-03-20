@@ -106,17 +106,17 @@ public class CreditAccount {
 
     @Override
     public String toString() {
-        return "CreditAccount" +
-               "\nid=" + id +
-               ", \nuserAccountId=" + userAccount.getId() +
-               ", \nbankName='" + bankName + '\'' +
-               ", \nstartDate=" + startDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
-               ", \nendDate=" + endDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
-               ", \nmonths=" + months +
-               ", \nloanAmount=" + loanAmount +
-               ", \nmonthlyPayment=" + monthlyPayment +
-               ", \ninterestRate=" + interestRate +
-               ", \nissuingEmployeeId=" + issuingEmployee.getId() +
-               ", \npaymentAccountId=" + paymentAccount.getId();
+        return
+                "\nid=" + id +
+                ", \nuserAccountId=" + userAccount.getId() +
+                ", \nbankName='" + bankName + '\'' +
+                ", \nstartDate=" + startDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
+                ", \nendDate=" + endDate.format(DateTimeFormatter.ofPattern("dd.MM.yyyy")) +
+                ", \nmonths=" + months +
+                ", \nloanAmount=" + loanAmount +
+                ", \nmonthlyPayment=" + monthlyPayment +
+                ", \ninterestRate=" + interestRate +
+                ", \nissuingEmployeeId=" + issuingEmployee.getId() +
+                ", \npaymentAccountId=" + paymentAccount.getId();
     }
 }

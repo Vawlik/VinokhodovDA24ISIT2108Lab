@@ -11,9 +11,9 @@ public interface PaymentAccountService {
     /**
      * Create payment account.
      *
-     * @param id      the id
-     * @param user    the user
-     * @param bank    the bank
+     * @param id   the id
+     * @param user the user
+     * @param bank the bank
      * @return the payment account
      */
     PaymentAccount createPaymentAccount(Long id, User user, Bank bank);
